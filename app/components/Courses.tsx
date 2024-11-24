@@ -16,10 +16,10 @@ export default function Courses() {
                 <div className="flex  flex-col justify-center items-center  gap-16">
 
                     {/* HEADING */}
-                <div className=" flex flex-col  gap-6  font-roboto  ">
-                    <h1 className=" font-bold text-[56px] leading-[67.2px] text-center mobile:text-[32px] mobile:leading-[41.6px]">Courses</h1>
-                    <p className="font-normal text-[18px] leading-[27px] text-center ">Your Ultimate Guide to learning</p>
-                </div>
+                    <div className=" flex flex-col  gap-6  font-roboto  ">
+                        <h1 className=" font-bold text-[56px] leading-[67.2px] text-center mobile:text-[32px] mobile:leading-[41.6px]">Courses</h1>
+                        <p className="font-normal text-[18px] leading-[27px] text-center ">Your Ultimate Guide to learning</p>
+                    </div>
 
                     {/* CATEGORIES NAME */}
                     <div className="flex mt-9  ">
@@ -30,9 +30,9 @@ export default function Courses() {
                     </div>
 
                     {/* CATEGORIES SECTION */}
-                   
-                    <div  className="gap-16 grid mobile:grid-cols-1 ">
-                         {/* 1ST ROW */}
+
+                    <div className="gap-16 grid mobile:grid-cols-1 ">
+                        {/* 1ST ROW */}
 
                         <div className="  gap-8 grid grid-cols-3 mobile:grid-cols-1 mobile:gap-16">
                             <div className="  rounded-[5px] gap-6 bg-[#F7F7F7] ">
@@ -126,7 +126,7 @@ export default function Courses() {
 
                         {/* 2ND ROW */}
                         <div className=" mobile:hidden gap-8 grid grid-cols-3 mobile:grid-cols-1 mobile:gap-16">
-                        <div className="  rounded-[5px] gap-6 bg-[#F7F7F7]">
+                            <div className="  rounded-[5px] gap-6 bg-[#F7F7F7]">
                                 <Image
                                     src={'/images/card4.svg'}
                                     alt="card img"
@@ -213,11 +213,11 @@ export default function Courses() {
                         </div>
                     </div>
 
-                {/* SEE MORE BUTTON */}
-                <Link href="/courses" target="_blank">
-                    <Button variant={"seeMoreBtn"} > View All Courses</Button>
-                </Link>   
-            
+                    {/* SEE MORE BUTTON */}
+                    <Link href="/courses" target="_blank">
+                        <Button variant={"seeMoreBtn"} > View All Courses</Button>
+                    </Link>
+
 
 
                 </div>

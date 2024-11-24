@@ -13,10 +13,12 @@ const buttonVariants = cva(
           "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive:
           "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+          loginSignUpbtn:
+          "   text-center  border-[#000000] border-[1px] rounded-[5px] pt-[6px] pb-[6px] pr-[16px] pl-[16px] hover:bg-[#000000] hover:text-[#ffffff]",
         buttonStyle1:
-          "w-[117px] h-[40px]   text-center  border-[#000000] border-[1px] rounded-[5px] pt-[8px] pb-[8px] pr-[20px] pl-[20px] hover:bg-[#000000] hover:text-[#ffffff]",
+          "m-1  text-center  border-[#000000] border-[1px] rounded-[5px] pt-[8px] pb-[8px] pr-[20px] pl-[20px] hover:bg-[#000000] hover:text-[#ffffff]",
           buttonStyle2:
-          "w-[117px] h-[40px]   text-center  border-[#000000] border-[1px] bg-[#000000] text-[#ffffff] rounded-[5px] pt-[8px] pb-[8px] pr-[20px] pl-[20px] hover:bg-[#ffffff] hover:text-[#000000]",
+          " m-1 text-center  border-[#000000] border-[1px] bg-[#000000] text-[#ffffff] rounded-[5px] pt-[8px] pb-[8px] pr-[20px] pl-[20px] hover:bg-[#ffffff] hover:text-[#000000]",
         emailButton:
           " text-[#505050] rounded-[5px] border-[0.5px] p-[12px] gap-2 border-[#000000] justify-start font-roboto font-normal text-base",
         subscribeButton:

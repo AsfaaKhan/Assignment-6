@@ -22,7 +22,7 @@ export default function Footer() {
                                 required
                                 className="col-span-3 w-[265px] h-12 text-[#505050] rounded-[5px] border-[0.5px] p-[12px] gap-2 border-[#000000] justify-start font-roboto font-normal text-base  mobile:border-[#000000] mobile:w-full"
                             />
-                            
+
                             <Button variant="buttonStyle1" className=" mobile:w-full p-[21px]" >Subscribe</Button>
                         </div>
                         <p className="font-normal text-xs mobile:text-center pt-4">By subscribing you agree to with our <span className="font-normal text-xs leading-[18px] border-b-[0.1px] border-[#000000] "> Privacy Policy</span> </p></div>
@@ -31,7 +31,7 @@ export default function Footer() {
 
             </div>
 
-            {/*     FOOTER */}
+            {/*  FOOTER */}
             <div className="  gap-20  flex  justify-between mobile:flex-col mobile:w-full mobile:gap-8  mobile:justify-center mobile:items-center ">
 
                 <div className=" mobile:w-full   mobile:flex mobile:items-center   mobile:text-center mobile:justify-center">
@@ -79,7 +79,7 @@ export default function Footer() {
 
             </div>
 
-            {/* BOTTOM LINKS  */}
+            {/* FOTTER SOCIAL LINKS  */}
 
             <div className=" gap-8  max-w-[1120px] h-[57px]  border-t-[0.5px] border-[#000000] flex mobile:flex-col  justify-between  pt-8">
                 <div className=" flex gap-6 ">

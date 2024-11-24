@@ -125,7 +125,7 @@ export default function Courses() {
                             </div>
 
                             {/* 2ND ROW */}
-                            <div className=" mobile:hidden gap-8 grid grid-cols-3 mobile:grid-cols-1 mobile:gap-16">
+                            <div className=" gap-8 grid grid-cols-3 mobile:grid-cols-1 mobile:gap-16">
                                 <div className="  rounded-[5px] gap-6 bg-[#F7F7F7]">
                                     <Image
                                         src={'/images/card4.svg'}

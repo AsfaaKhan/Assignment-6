@@ -55,9 +55,8 @@ const config: Config = {
   			roboto: ['Roboto', 'sans-serif']
   		},
   		screens: {
-  			mobile: {
-  				max: '428px'
-  			},
+  			mobile: {max: '428px'},
+			ipad:{min:"429"},
 			tablet: '1280px'
 			
   		},

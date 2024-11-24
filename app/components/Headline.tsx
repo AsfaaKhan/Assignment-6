@@ -7,7 +7,7 @@ export default function HeadLine() {
         <div className="max-w-[1280px]  pr-[64px] pl-[62px] bg-[#F7F7F7] top-[100px] left-[100px] border-b-2 border-[#000000] flex mb-[14px] mobile:hidden">
 
             <div className="pt-3 pb-3 gap-8 flex justify-between">
-                {/* email and phone */}
+                {/*     EMAIL & PHONE  */}
                 <div className="gap-4 flex  ">
                     <p className="font-roboto w-[205px] h-[21px] font-normal text-sm text-[#000000] pt-3 pb-3 ">Phone Number: 956 742 455 678</p>
 
@@ -20,7 +20,7 @@ export default function HeadLine() {
                 <div className=" flex justify-end items-center w-[736px] pr-16  gap-4  ">
 
 
-                        {/* FACEBOOK */}
+                    {/* FACEBOOK */}
                     <Link href="https://www.facebook.com" target="_blank">
                         <svg className="h-6 w-6" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.5 3H6.5C5.9477 3 5.5 3.44772 5.5 4V7H9.5C9.6137 6.99748 9.7216 7.0504 9.7892 7.1419C9.8568 7.2334 9.8758 7.352 9.84 7.46L9.1 9.66C9.0318 9.8619 8.8431 9.9984 8.63 10H5.5V17.5C5.5 17.7761 5.2761 18 5 18H2.5C2.22386 18 2 17.7761 2 17.5V10H0.5C0.22386 10 0 9.7761 0 9.5V7.5C0 7.2239 0.22386 7 0.5 7H2V4C2 1.79086 3.7909 0 6 0H9.5C9.7761 0 10 0.22386 10 0.5V2.5C10 2.77614 9.7761 3 9.5 3Z" fill="black" />
@@ -36,7 +36,7 @@ export default function HeadLine() {
                             <line x1="17.5" y1="6.5" x2="17.5" y2="6.5" />
                         </svg>
                     </Link>
-                    
+
                     {/* TWITTER */}
                     <Link href="https://www.twitter.com" target="_blank" >
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="currentColor" viewBox="0 0 24 24">
@@ -48,7 +48,7 @@ export default function HeadLine() {
                     <Link href="https://www.linkedin.com" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M19 0H5C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5V5c0-2.761-2.239-5-5-5zM8.339 19H5.662V9h2.677v10zm-1.339-11.59c-.842 0-1.523-.682-1.523-1.523S6.158 4.364 7 4.364c.842 0 1.523.682 1.523 1.523S7.842 7.41 7 7.41zm12.337 11.59h-2.676v-4.843c0-1.152-.023-2.634-1.604-2.634-1.604 0-1.851 1.254-1.851 2.548v4.93H10.53V9h2.567v1.364h.035c.357-.676 1.23-1.39 2.535-1.39 2.712 0 3.213 1.788 3.213 4.11v5.916z" />
-                    </svg></Link>
+                        </svg></Link>
 
                 </div>
             </div>

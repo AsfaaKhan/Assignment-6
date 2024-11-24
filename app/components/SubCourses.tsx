@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Course() {
     return (
-        <div id="services" className="w-full bg-[#FFFFFF]">
+        <div id="services" className=" bg-[#FFFFFF]">
             <div className=" flex flex-col max-w-[1280px] gap-20 items-center" >
 
                 {/* heading */}
@@ -22,8 +22,8 @@ export default function Course() {
 
                     {/* 1ST ROW */}
                     <div className="gap-6 flex mobile:flex-wrap  ">
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7]  ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/1.svg"}
                                     alt=""
@@ -40,8 +40,8 @@ export default function Course() {
 
                         </div>
 
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/2.svg"}
                                     alt=""
@@ -58,8 +58,8 @@ export default function Course() {
 
                         </div>
 
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/3.svg"}
                                     alt=""
@@ -79,8 +79,8 @@ export default function Course() {
 
                     {/* 2ND ROW */}
                     <div className="gap-6 flex mobile:flex-wrap mobile:hidden">
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/4.svg"}
                                     alt=""
@@ -97,8 +97,8 @@ export default function Course() {
 
                         </div>
 
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/5.svg"}
                                     alt=""
@@ -115,8 +115,8 @@ export default function Course() {
 
                         </div>
 
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/6.svg"}
                                     alt=""
@@ -138,8 +138,8 @@ export default function Course() {
                     {/* 3RD ROW */}
                     <div className="gap-6 flex mobile:flex- mobile:hidden">
 
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/7.svg"}
                                     alt=""
@@ -156,8 +156,8 @@ export default function Course() {
 
                         </div>
 
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/8.svg"}
                                     alt=""
@@ -174,8 +174,8 @@ export default function Course() {
 
                         </div>
 
-                        <div className="flex w-[410.67px] h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
-                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px] w-[100px] items-center p-[34px] rounded-[5px]">
+                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                            <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/9.svg"}
                                     alt=""
@@ -189,14 +189,8 @@ export default function Course() {
                                 <h3 className=" text-xl font-semibold ">Consulting</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
-
                         </div>
-
                     </div>
-
-
-
-
                 </div>
 
 
