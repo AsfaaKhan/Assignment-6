@@ -153,7 +153,7 @@ export default function Header() {
             </div>
 
             {/* HAMBURGER MOBILE SIZE   */}
-            <div className=" tablet:hidden mobile:fixed mobile:top-0  mobile:mb-6  h-[72px]  bg-[#F7F7F7]  border-b-[1px]  border-[#676767]  px-16 pl-16   " >
+            <div className=" tablet:hidden  mobile:mb-6  h-[72px]  bg-[#F7F7F7]  border-b-[1px]  border-[#676767]  px-16 pl-16   " >
 
                 <nav className="flex justify-between items-center h-[44px] ">
 
