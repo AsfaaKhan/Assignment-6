@@ -47,7 +47,7 @@ export default function Courses() {
                                             <div className="flex justify-between">
                                                 <h4 className="font-roboto font-semibold text-sm leadig-[21px] text-[#000000]">Design</h4>
                                                 <Image
-                                                    src={'/images/star.svg'}
+                                                    src={'/images/5star.svg'}
                                                     alt="star"
                                                     width={48}
                                                     height={24}>
@@ -76,7 +76,7 @@ export default function Courses() {
                                             <div className="flex justify-between">
                                                 <h4 className="font-roboto font-semibold text-sm leadig-[21px] text-[#000000]">Programmimg</h4>
                                                 <Image
-                                                    src={'/images/star.svg'}
+                                                    src={'/images/5star.svg'}
                                                     alt="star"
                                                     width={48}
                                                     height={24}>
@@ -106,7 +106,7 @@ export default function Courses() {
                                             <div className="flex justify-between">
                                                 <h4 className="font-roboto font-semibold text-sm leadig-[21px] text-[#000000]">Business</h4>
                                                 <Image
-                                                    src={'/images/star.svg'}
+                                                    src={'/images/5star.svg'}
                                                     alt="star"
                                                     width={48}
                                                     height={24}>
@@ -138,7 +138,7 @@ export default function Courses() {
                                             <div className="flex justify-between">
                                                 <h4 className="font-roboto font-semibold text-sm leadig-[21px] text-[#000000]">Art</h4>
                                                 <Image
-                                                    src={'/images/star.svg'}
+                                                    src={'/images/5star.svg'}
                                                     alt="star"
                                                     width={48}
                                                     height={24}>
@@ -166,7 +166,7 @@ export default function Courses() {
                                             <div className="flex justify-between">
                                                 <h4 className="font-roboto font-semibold text-sm leadig-[21px] text-[#000000]">Law</h4>
                                                 <Image
-                                                    src={'/images/star.svg'}
+                                                    src={'/images/5star.svg'}
                                                     alt="star"
                                                     width={48}
                                                     height={24}>
@@ -194,7 +194,7 @@ export default function Courses() {
                                             <div className="flex justify-between">
                                                 <h4 className="font-roboto font-semibold text-sm leadig-[21px] text-[#000000]">Tech</h4>
                                                 <Image
-                                                    src={'/images/star.svg'}
+                                                    src={'/images/5star.svg'}
                                                     alt="star"
                                                     width={48}
                                                     height={24}>
