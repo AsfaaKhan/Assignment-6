@@ -10,31 +10,30 @@ export default function Courses() {
     return (
         <div>
             {/*Course Container  */}
-            <div id="courses" className=" w-full max-w-[1280px] pr-6 pb-12 pt-12 pl-6 gap-20 left-[100px] bg-[#ffffff]  flex flex-col justify-center items-center  font-roboto">
+            <div id="courses" className=" w-full  pr-6 pb-12 pt-12 pl-6 gap-20 left-[100px] bg-[#ffffff]  flex flex-col justify-center items-center  font-roboto">
 
                 {/* COURSES DISPLAY */}
                 <div className="flex  flex-col justify-center items-center  gap-16">
 
                     {/* HEADING */}
                     <div className=" flex flex-col  gap-6  font-roboto  ">
-                        <h1 className=" font-bold text-[56px] leading-[67.2px] text-center mobile:text-[32px] mobile:leading-[41.6px]">Courses</h1>
-                        <p className="font-normal text-[18px] leading-[27px] text-center ">Your Ultimate Guide to learning</p>
+                        <h1 className=" font-bold text-[56px] leading-[67.2px] text-center text-black mobile:text-[32px] mobile:leading-[41.6px]">Courses</h1>
+                        <p className="font-normal text-black text-[18px] leading-[27px] text-center ">Your Ultimate Guide to learning</p>
                     </div>
 
                     {/* CATEGORIES NAME */}
                     <div className="flex mt-9  ">
-                        <ul className="w-[336px] h-[40px] flex justify-between font-normal text-base ">
-                            <li className="w-[87px] h-[40px] hover:border-b-[1px] pt-2 pb-2 pr-4 pl-4 gap-2 hover:border-b-[#676767]"><Link href={"./"} >Popular</Link></li>
+                        <ul className="w-[336px] h-[40px] flex justify-between text-black font-normal text-base ">
+                            <li className="w-[87px] h-[40px] hover:border-b-[1px] pt-2 pb-2 pr-4 pl-4 gap-2 hover:border-b-[#676767] text-black "><Link href={"./"} >Popular</Link></li>
                             <li className="w-[140px] h-[40px] hover:border-b-[1px] pt-2 pb-2 pr-4 pl-4 gap-2 hover:border-b-[#676767]"><Link href={"./"}>Recommended</Link></li>
-                            <li className="w-[109px] h-[40px] hover:border-b-[1px] pt-2 pb-2 pr-4 pl-4 gap-2 hover:border-b-[#676767]  "><Link href={"./"}>Best Price</Link></li></ul>
+                            <li className="w-[109px] h-[40px] hover:border-b-[1px] pt-2 pb-2 pr-4 pl-4 text-black gap-2 hover:border-b-[#676767]  "><Link href={"./"}>Best Price</Link></li></ul>
                     </div>
 
                     {/* CATEGORIES SECTION */}
 
-                    <div className="gap-16 grid mobile:grid-cols-1 ">
+                    <div className="gap-8 grid mobile:grid-cols-1 ">
                         {/* 1ST ROW */}
-
-                        <div className="  gap-8 grid grid-cols-3 mobile:grid-cols-1 mobile:gap-16">
+                        <div className="text-black  gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-16">
                             <div className="  rounded-[5px] gap-6 bg-[#F7F7F7] ">
                                 <Image
                                     src={'/images/card1.svg'}
@@ -59,12 +58,11 @@ export default function Courses() {
                                     <div className=" gap-4 flex items-center text-center">
                                         <Button variant={"buttonStyle1"} className="">Enroll Now </Button>
                                         <h1 className="rounded-[5px] pt-2 pb-2 pl-5 pr-5 gap-2 " >$400</h1>
-
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="  rounded-[5px] gap-6 bg-[#F7F7F7]">
+                            <div className="rounded-[5px] gap-6 bg-[#F7F7F7]">
                                 <Image
                                     src={'/images/card2.svg'}
                                     alt="card img"
@@ -88,7 +86,6 @@ export default function Courses() {
                                     <div className=" gap-4 flex items-center text-center">
                                         <Button variant={"buttonStyle1"} className="">Enroll Now </Button>
                                         <h1 className="rounded-[5px] pt-2 pb-2 pl-5 pr-5 gap-2 " >$400</h1>
-
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +122,7 @@ export default function Courses() {
                         </div>
 
                         {/* 2ND ROW */}
-                        <div className=" mobile:hidden gap-8 grid grid-cols-3 mobile:grid-cols-1 mobile:gap-16">
+                        <div className="text-black  gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-16">
                             <div className="  rounded-[5px] gap-6 bg-[#F7F7F7]">
                                 <Image
                                     src={'/images/card4.svg'}
@@ -217,13 +214,8 @@ export default function Courses() {
                     <Link href="/courses" target="_blank">
                         <Button variant={"seeMoreBtn"} > View All Courses</Button>
                     </Link>
-
-
-
                 </div>
-
             </div>
-
         </div>
     )
 }

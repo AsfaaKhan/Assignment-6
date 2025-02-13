@@ -7,16 +7,14 @@ export default function HeroSection() {
     return (
         <div>
             {/* TEXT PICTURE  */}
-            <div id="homePage" className=" max-w-[1280px] h-auto top-[141px] mobile:pt-10 bg-[#FFFFFF] ">
-                <div className="grid grid-cols-2 mobile:grid-cols-1 gap-6 mobile:gap-0   ">
+            <div id="homePage" className="h-auto  bg-[#FFFFFF] ">
+                <div className="flex flex-col lg:flex-row  gap-6 mt-8 ">
 
                     {/* TEXT */}
-
-                    <div className=" flex justify-center items-center pt-16 pb-16 pr-6 pl-6  ">
-                        <div className=" flex flex-col   max-w-lg mobile:max-w-md   gap-6 bg-[#FFFFFF]  ">
-
-                            <h1 className="  text-[#000000] font-roboto font-bold text-[56px] mobile:text-[32px] leading-[67.2px] mobile:leading-tight ">Learn new skills <br /> online with ease</h1>
-                            <p className=" font-roboto font-normal text-[18px] mobile:text-[16px] leading-[27px] text-[#000000] ">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
+                    <div className=" flex flex-col justify-center items-center pt-16 pb-16 pl-[80px] pr-[60px] ">
+                        <div className=" flex flex-col  gap-6 bg-[#FFFFFF] ">
+                            <h1 className="  text-[#000000] font-roboto font-bold md:text-[56px] text-[32px] md:leading-[67.2px] leading-tight ">Learn new skills <br /> online with ease</h1>
+                            <p className=" font-roboto font-normal md:text-[18px] text-[16px] leading-[27px] text-[#000000] ">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
 
                             {/* BUTTON */}
                             <div className=" flex flex-wrap gap-4 ">
@@ -26,10 +24,6 @@ export default function HeroSection() {
                                 </Button>
                             </div>
                         </div>
-
-
-
-
                     </div>
 
                     {/* IMAGE */}

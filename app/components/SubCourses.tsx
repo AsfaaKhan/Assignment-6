@@ -17,12 +17,11 @@ export default function Course() {
 
 
                 {/* Explore Courses  */}
-                <div className=" flex flex-col mobile:flex-wrap justify-center  gap-16 ">
-
+                <div className="py-10 flex flex-col justify-center  gap-16 ">
 
                     {/* 1ST ROW */}
-                    <div className="gap-6 flex mobile:flex-wrap  ">
-                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7]  ">
+                    <div className=" gap-6 flex flex-col  lg:flex-row   ">
+                        <div className="flex p-4  h-[132px] rounded-[5px] gap-8 bg-[#F7F7F7]  ">
                             <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/1.svg"}
@@ -33,7 +32,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black justify-center">
                                 <h3 className=" text-xl font-semibold ">Design & Development</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
@@ -51,7 +50,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black justify-center">
                                 <h3 className=" text-xl font-semibold ">Marketing</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
@@ -69,7 +68,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black  justify-center">
                                 <h3 className=" text-xl font-semibold ">Development</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
@@ -78,7 +77,7 @@ export default function Course() {
                     </div>
 
                     {/* 2ND ROW */}
-                    <div className="gap-6 flex mobile:flex-wrap mobile:hidden">
+                    <div className="gap-6 flex flex-col md:hidden">
                         <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
                             <div className="bg-[#FFFFFF] gap-[10px] h-[100px] items-center p-[34px] rounded-[5px]">
                                 <Image
@@ -90,7 +89,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black justify-center">
                                 <h3 className=" text-xl font-semibold ">Communication</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
@@ -108,7 +107,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black justify-center">
                                 <h3 className=" text-xl font-semibold ">Digital Marketing</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
@@ -126,7 +125,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black  justify-center">
                                 <h3 className=" text-xl font-semibold ">Design & Development</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
@@ -134,10 +133,8 @@ export default function Course() {
                         </div>
                     </div>
 
-
                     {/* 3RD ROW */}
-                    <div className="gap-6 flex mobile:flex- mobile:hidden">
-
+                    <div className=" gap-6 flex flex-col lg:flex-row ">
                         <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
                             <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
@@ -149,7 +146,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className="w-auto lg:w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black justify-center">
                                 <h3 className=" text-xl font-semibold ">Business</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
@@ -167,14 +164,13 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black  justify-center">
                                 <h3 className=" text-xl font-semibold ">Finance</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>
-
                         </div>
 
-                        <div className="flex  h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
+                        <div className="flex h-[132px] rounded-[5px] p-4 gap-8 bg-[#F7F7F7] ">
                             <div className="bg-[#FFFFFF] gap-[10px] h-[100px]  items-center p-[34px] rounded-[5px]">
                                 <Image
                                     src={"/images/9.svg"}
@@ -185,7 +181,7 @@ export default function Course() {
                                 </Image>
                             </div>
 
-                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center  justify-center">
+                            <div className=" w-[246.67px] h-[57px] gap-6 pt-4 font-roboto items-center text-black  justify-center">
                                 <h3 className=" text-xl font-semibold ">Consulting</h3>
                                 <p className="font-normal text-lg">50+ Courses Available</p>
                             </div>

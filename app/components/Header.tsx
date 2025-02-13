@@ -25,12 +25,11 @@ export default function Header() {
     return (
         <div>
             {/* Container  */}
-            <div className=" mobile:hidden max-w-[1280px] h-[72px]  bg-[#F7F7F7]  border-b-[1px]  border-[#676767]  px-16 pl-16   " >
+            <div className="hidden lg:flex  h-[72px]  bg-[#F7F7F7] text-black border-b-[1px]  border-[#676767]  px-16    " >
 
-                <nav className="flex justify-between items-center w-[1152px] h-[44px] mobile:w-[428px] mobile:flex mobile:justify-between ">
-
+                <nav className="flex justify-between items-center h-[44px] mobile:justify-between ">
                     {/* LOGO */}
-                    <div className="flex items-center  pt-[29px] gap-[10.5px] w-[130.6px] h-[41px]">
+                    <div className="flex items-center  pt-[29px] gap-[10.5px] h-[41px]">
                         <Image
                             src={"/images/logoPic.svg"}
                             alt="logo pic"
@@ -42,10 +41,11 @@ export default function Header() {
                     </div>
 
                     {/* NAVBAR ITEMS */}
-                    <div className="pt-7 mobile:hidden">
-                        <div className=" bg-[#FFFFFF] w-[910px] h-[44px] gap-[10px] items-center font-roboto text-base font-normal text-[#000000]">
+                    <div className="pt-7 ">
+                        <div className=" bg-[#FFFFFF]  h-[44px] gap-[10px] items-center font-roboto text-base font-normal text-[#000000]">
                             <ul className="flex justify-between">
-                                <li className="p-[10px] hover:border-b-[1px] hover:border-[#000000] gap-[10px] "><Link href="/">Home</Link></li>
+                                <li className="p-[10px] hover:border-b-[1px] hover:border-[#000000] gap-[10px] ">
+                                <Link href="/">Home</Link></li>
                                 <li className="p-[10px] hover:border-b-[1px] hover:border-[#000000] "><Link href="#courses">Courses</Link></li>
                                 <li className="p-[10px] hover:border-b-[1px] hover:border-[#000000] "><Link href="#services">Services</Link></li>
                                 <li className="p-[10px] hover:border-b-[1px] hover:border-[#000000] "><Link href="#acheivement">Achievement</Link></li>
@@ -153,7 +153,7 @@ export default function Header() {
             </div>
 
             {/* HAMBURGER MOBILE SIZE   */}
-            <div className=" tablet:hidden mobile:fixed mobile:top-0 mobile:left-0 mobile:w-full   mobile:mb-6  h-[72px]  bg-[#F7F7F7]  border-b-[1px]  border-[#676767]  px-16 pl-16   " >
+            <div className="lg:hidden fixed top-0 left-0 w-full   mb-6  h-[72px]  bg-[#F7F7F7]  border-b-[1px] text-black border-[#676767]  px-16    " >
 
                 <nav className="flex justify-between items-center h-[44px] ">
 

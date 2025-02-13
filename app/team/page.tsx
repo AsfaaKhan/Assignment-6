@@ -1,14 +1,13 @@
-import Header from "../components/Header"
 import Image from "next/image"
 
 
 export default function Team() {
     return (
         <div>
-            <Header />
 
 
-            <div id="about" className=" bg-[#f7f7f7]  max-w-[1280px] flex flex-col mobile:mt-10 gap-4  pt-28  pb-28 mobile:pt-12 mobile:pb-12 mobile:pr-6 mobile:pl-6 mobile:gap-12 ">
+            {/* HEADING */}
+            <div id="about" className=" bg-[#f7f7f7]  flex flex-col   gap-4  pt-28  pb-28 mobile:pt-12 text-black  mobile:pb-12 mobile:pr-6 mobile:pl-6 mobile:gap-12 ">
                 <div className=" mb-12 gap-6 flex flex-col">
                     <h1 className=" font-bold text-5xl leading-[57.6px] text-center text-[#000000]">Our team</h1>
                     <p className="font-normal text-lg text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -124,7 +123,7 @@ export default function Team() {
 
 
                     {/* 2nd row of Team */}
-                    <div className=" gap-12 grid grid-cols-3 mobile:grid-cols-1">
+                    <div className="mobile:hidden gap-12 grid grid-cols-3 mobile:grid-cols-1">
                         <div className="gap-6 flex flex-col items-center">
                             <Image
                                 src={"/images/team4.svg"}
@@ -225,16 +224,10 @@ export default function Team() {
                                     height={24}>
                                 </Image>
                             </div>
-
                         </div>
                     </div>
-
-
-
                 </div>
-
             </div>
-
         </div>
     )
 

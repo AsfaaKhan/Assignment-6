@@ -6,7 +6,7 @@ export default function Achivement() {
         <div>
             {/* achivement  */}
             {/* section 1 */}
-            <div id="acheivement" className=" flex max-w-[1280px] pt-28 pr-16 pl-16 pb-28 gap-10 bg-[#FFFFFF] ">
+            <div id="acheivement" className=" flex  pt-28 pr-16 pl-16 pb-28 gap-10 bg-[#FFFFFF] ">
 
                 <div className=" flex flex-col items-center  gap-6">
 
@@ -17,7 +17,7 @@ export default function Achivement() {
                     </div>
 
 
-                    <div className=" grid grid-cols-4  mobile:grid-cols-2 items-center  gap-40">
+                    <div className=" grid grid-cols-2  lg:grid-cols-4 items-center  gap-40">
 
                         <div className=" flex flex-col gap-2  text-center justify-center  ">
                             <h3 className="font-roboto font-bold text-[40px] mobile:text-[20px] leading-[48px] text-[#000000] gap-2">+200</h3>
@@ -45,7 +45,7 @@ export default function Achivement() {
 
 
             {/* section 2 */}
-            <div id="acheivement" className=" flex max-w-[1280px] pt-28 pr-16 pl-16 pb-28 gap-10 bg-[#FFFFFF] mobile:hidden">
+            <div id="acheivement" className=" flex pt-28 pr-16 pl-16 pb-28 gap-10 bg-[#FFFFFF] mobile:hidden">
 
                 <div className=" flex flex-col items-center  gap-6">
 
@@ -56,7 +56,7 @@ export default function Achivement() {
                     </div>
 
 
-                    <div className=" grid grid-cols-4  mobile:grid-cols-2 items-center  gap-40">
+                    <div className=" grid grid-cols-2 lg:grid-cols-4 items-center  gap-40">
 
                         <div className=" flex flex-col gap-2  text-center justify-center  ">
                             <h3 className="font-roboto font-bold text-[40px] mobile:text-[20px] leading-[48px] text-[#000000] gap-2">+200</h3>

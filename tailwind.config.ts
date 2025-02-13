@@ -56,8 +56,10 @@ const config: Config = {
   		},
   		screens: {
   			mobile: {max: '428px'},
-			ipad:{min:"429"},
-			tablet: '1280px'
+			small:{min:'429px'},
+			tablet: '1280px',
+
+
 			
   		},
   		borderRadius: {
