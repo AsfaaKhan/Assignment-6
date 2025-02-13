@@ -58,9 +58,6 @@ const config: Config = {
   			mobile: {max: '428px'},
 			small:{min:'429px'},
 			tablet: '1280px',
-
-
-			
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

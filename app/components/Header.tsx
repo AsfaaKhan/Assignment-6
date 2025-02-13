@@ -27,7 +27,7 @@ export default function Header() {
             {/* Container  */}
             <div className="hidden lg:flex  h-[72px]  bg-[#F7F7F7] text-black border-b-[1px]  border-[#676767]  px-16    " >
 
-                <nav className="flex justify-between items-center h-[44px] mobile:justify-between ">
+                <nav className="flex justify-between items-center h-[44px]  ">
                     {/* LOGO */}
                     <div className="flex items-center  pt-[29px] gap-[10.5px] h-[41px]">
                         <Image
@@ -42,7 +42,7 @@ export default function Header() {
 
                     {/* NAVBAR ITEMS */}
                     <div className="pt-7 ">
-                        <div className=" bg-[#FFFFFF]  h-[44px] gap-[10px] items-center font-roboto text-base font-normal text-[#000000]">
+                        <div className=" bg-[#FFFFFF] w-[910px] h-[44px] gap-[10px] items-center font-roboto text-base font-normal text-[#000000]">
                             <ul className="flex justify-between">
                                 <li className="p-[10px] hover:border-b-[1px] hover:border-[#000000] gap-[10px] ">
                                 <Link href="/">Home</Link></li>
@@ -153,7 +153,7 @@ export default function Header() {
             </div>
 
             {/* HAMBURGER MOBILE SIZE   */}
-            <div className="lg:hidden fixed top-0 left-0 w-full   mb-6  h-[72px]  bg-[#F7F7F7]  border-b-[1px] text-black border-[#676767]  px-16    " >
+            <div className="lg:hidden fixed top-0 left-0 mb-6  h-[72px] w-full  bg-[#F7F7F7]  border-b-[1px] text-black border-[#676767]  px-16    " >
 
                 <nav className="flex justify-between items-center h-[44px] ">
 

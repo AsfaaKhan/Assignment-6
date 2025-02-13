@@ -7,8 +7,8 @@ export default function HeroSection() {
     return (
         <div>
             {/* TEXT PICTURE  */}
-            <div id="homePage" className="h-auto  bg-[#FFFFFF] ">
-                <div className="flex flex-col lg:flex-row  gap-6 mt-8 ">
+            <div id="homePage" className="h-auto  bg-[#FFFFFF] w-screen mt-8">
+                <div className="flex flex-col lg:flex-row  gap-6 ">
 
                     {/* TEXT */}
                     <div className=" flex flex-col justify-center items-center pt-16 pb-16 pl-[80px] pr-[60px] ">
